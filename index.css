@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    background-color: #D1D5DB;
+} 
+
+.content-wrapper{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+
+img{
+    width: 100%;
+}
+
+h2,h5,p{
+    margin: 0;
+}
+
+.head-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 70px 40px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+main{
+    padding: 80px 40px;
+}
+
+.menu{
+    width: 520px;
+    background-color: white;
+    margin: 0;
+}
+
+.item{
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    border-bottom: 1px solid #D2D2D2;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-emoji{
+    font-size: 70px;
+}
+
+.item-details{
+    display: flex;
+    gap: 1.5rem;
+    cursor: text;
+}
+
+.item-desc{
+    margin: 10px 0;
+    color: #8B8B8B;
+}
+
+.item-button button{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkout-section{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+}
+
+.checkout-title{
+    margin: 0 0 60px 0;
+}
+
+.checkout-items{
+    width: 520px;
+    border-bottom: 1.5px solid black;
+    padding: 6px 0;
+}
+
+.checkout-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-item-detail{
+    display: flex;
+    gap: .5rem;
+    cursor: text;
+}
+
+.checkout-item-title{
+    letter-spacing: 1px;
+}
+
+.checkout-item-remove{
+    line-height: 2.9;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.checkout-items-total{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.checkout-section button{
+    color: white;
+    background-color: #16DB99;
+    padding: 15px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.payment-section{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 520px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.payment-section-title{
+    font-family: sans-serif;
+    margin: 0 0 50px; 
+}
+
+.payment-form input{
+    width: 80%;
+    margin: 10px 0;
+    padding: 15px 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-form button{
+    width: 90%;
+    color: white;
+    background-color: #16DB99;
+    padding: 15px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.thanks-section{
+    display: none;
+    width: 100%;
+    height: 120px;
+    color: #065F46;
+    background-color: #ECFDF5;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}

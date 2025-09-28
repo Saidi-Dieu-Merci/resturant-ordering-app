@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <header>
+                <img src="/jimmy's.png">
+                <div class="head-title">
+                    <h2>Jimmy's Diner</h2>
+                    <h5>The best burgers and pizzas in the town.</h5>
+                </div>
+            </header>
+            <main>
+                <!-- Menu Section -->
+                <section class="menu" id="menu"></section>
+                
+                <!-- Checkout  Section -->
+                <section class="checkout-section" id="checkout-section">
+                    <h2 class="checkout-title">Your order</h2>
+                    <div class="checkout-items" id="checkout-items">
+                            <!-- Checkout Items -->
+                    </div>
+                    <div class="checkout-items-total">
+                        <h2>Total</h2>
+                        <h3 class="checkout-item-price" id="checkout-items-price"></h3>
+                    </div>
+                    <button id="order-btn" data-comp-order-btn="order-btn">Complete order</button>
+                </section>
+                
+                <!-- payment section -->
+                <section class="payment-section" id="payment-section">
+                    <h2 class="payment-section-title">Enter card details</h2>
+                    <form class="payment-form" id="payment-form">
+                        <input type="text" name="customer-name" placeholder="Enter your name" required>
+                        <input type="number" placeholder="Enter card number" required>
+                        <input type="number" placeholder="Enter CVV" required>
+                        <button type="submit" data-pay-btn="payment-btn" >Pay</button>
+                    </form>
+                </section>
+                
+                <!-- thanks section -->
+                <section class="thanks-section" id="thanks-section"></section>
+                
+            </main>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
